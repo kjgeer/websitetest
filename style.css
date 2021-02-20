@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#image{
+    background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+     );
+    background-position:center;
+    height:100%;
+    max-width: 100%
+   }
+
+#image2{
+    background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+     );
+    background-position:center;
+    height:120vh;
+    max-width: 100%
+    
+}
+html{
+    font-size: 62.5%;
+}
+
+h1, h2, p{
+    color: dodgerblue;
+}
+/* nav bar*/
+nav{
+    width: 20%;
+    height: 3%;
+    margin-left: 40%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-content: space-between;
+
+}
+
+nav a{
+    margin-bottom: 5%;
+    color: ghostwhite;
+    background: slateblue;
+    text-decoration: none;
+    font-size: 9vh;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    transition: .3s;
+}
+
+nav a:hover{
+    background-color: whitesmoke; 
+    color: skyblue;   
+}
+/*home page*/
+/*top text*/
+h1{
+    font-size: 6vw;
+}
+
+.h1flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+h2{
+    font-size: 4vw;
+    margin-top: 5%;
+}
+
+.h2flex{
+    display: flex;
+    justify-content: center;
+    
+}
+/*about me */
+
+.pflex p{
+    text-align: center;
+    width: 75%;
+    padding: 2% 0;
+    font-size: 2vw;   
+}
+
+.pflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*footer*/
+footer a{  
+    font-size: 3vw; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+/*contact page*/
+.contact a{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+ }
+
+/*tablet view*/
+
+@media(max-width:800px){
+    nav a{
+        font-size: 4.5vw;
+    }
+}
+
+/*phone view*/
+
+@media(max-width:500px){
+    .pflex p{
+        font-size: 4vw;
+    }
+}
