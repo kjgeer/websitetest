@@ -42,16 +42,18 @@ table {
 	border-spacing: 0;
 }
 #image{
-    background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+    background: url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
      );
+    background-repeat: 0;
     background-position:center;
     height:100%;
     max-width: 100%
    }
 
 #image2{
-    background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+    background: url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
      );
+    background-repeat: 0;
     background-position:center;
     height:100vh;
     max-width: 100%   
@@ -61,14 +63,15 @@ html{
 }
 
 h1, h2, p{
-    color: dodgerblue;
+    color: blanchedalmond;
 }
 /* nav bar*/
 nav{
     width: 20%;
     height: 3%;
     margin-left: 40%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    padding-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -102,12 +105,12 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em;
+    /* margin-bottom: 3em; */
+    padding-top: 2em;
 }
 
 h2{
     font-size: 4vw;
-    margin-top: 5%;
 }
 
 .h2flex{
@@ -134,7 +137,7 @@ h2{
 /*footer*/
 footer a{  
     font-size: 3vw; 
-    color: green;
+    color: whitesmoke;
 }
 
 footer{
@@ -142,6 +145,7 @@ footer{
     justify-content: center;
     justify-content: space-around;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 /*contact page*/
@@ -151,7 +155,7 @@ footer{
     flex-direction: column;
     margin: 20px;
     align-items: center;
-    color: green;
+    color: whitesmoke;
  }
 
 /*tablet view*/
